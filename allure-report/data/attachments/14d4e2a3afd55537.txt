@@ -1,0 +1,3 @@
+[32mINFO    [0m tests.test_cart_&_checkout:test_cart_&_checkout.py:14 Fetching catalog for product IDs...
+[32mINFO    [0m tests.test_cart_&_checkout:test_cart_&_checkout.py:19 Selected product: 16
+[32mINFO    [0m tests.test_cart_&_checkout:test_cart_&_checkout.py:42 Redirected to: /login?redirect=cart

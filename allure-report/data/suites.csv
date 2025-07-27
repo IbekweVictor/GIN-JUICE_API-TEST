@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","850","test_search_product","tests","Sun Jul 27 20:38:25 WAT 2025","passed","Sun Jul 27 20:38:26 WAT 2025","TestProducts","test_products","",""
+"","1308","test_products_page","tests","Sun Jul 27 20:38:23 WAT 2025","passed","Sun Jul 27 20:38:25 WAT 2025","TestProducts","test_products","",""
+"","1202","test_login_page","tests","Sun Jul 27 20:38:22 WAT 2025","passed","Sun Jul 27 20:38:23 WAT 2025","TestLogin","test_login","",""
+"","11006","test_add_to_cart_and_checkout_redirects_to_login","tests","Sun Jul 27 20:38:10 WAT 2025","passed","Sun Jul 27 20:38:21 WAT 2025","TestCartAndCheckout","test_cart_&_checkout","",""
+"","783","test_homepage","tests","Sun Jul 27 20:38:21 WAT 2025","passed","Sun Jul 27 20:38:22 WAT 2025","TestHomepage","test_homepage","",""
+"","1027","test_view_product","tests","Sun Jul 27 20:38:26 WAT 2025","passed","Sun Jul 27 20:38:27 WAT 2025","TestProducts","test_products","",""

@@ -1,0 +1,7 @@
+"BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","","0","Products","1","0","Search for a product","0"
+"0","","0","Products","1","0","View products page","0"
+"0","","0","Authentication","1","0","Login page should work and redirect after login","0"
+"0","","0","Cart & Checkout","1","0","Add to cart and expect checkout to redirect to login","0"
+"0","","0","Homepage","1","0","Verify homepage loads","0"
+"0","","0","Products","1","0","View individual product","0"
