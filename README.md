@@ -50,7 +50,7 @@ ginandjuice_api_tests/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<your-username>/ginandjuice-api-tests.git
+   git clone [https://github.com/IbekweVictor/GIN-JUICE_API-TEST.git]
    cd ginandjuice-api-tests
    ```
 
