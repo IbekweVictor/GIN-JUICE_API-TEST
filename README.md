@@ -1,7 +1,3 @@
-Here is a **more descriptive and technical README**:
-
----
-
 # GinAndJuice API Test Suite
 
 ## 📌 Overview

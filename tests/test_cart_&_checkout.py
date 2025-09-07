@@ -12,6 +12,7 @@ class TestCartAndCheckout:
     @allure.severity(allure.severity_level.CRITICAL)
     def test_add_to_cart_and_checkout_redirects_to_login(self, base_url, session):
         logger.info("Fetching catalog for product IDs...")
+        
         catalog_page = session.get(f"{base_url}/catalog").text
         product_ids = re.findall(r'/catalog/product\?productId=(\d+)', catalog_page)
         assert product_ids, "No products found"
@@ -19,8 +20,16 @@ class TestCartAndCheckout:
         logger.info(f"Selected product: {product_id}")
 
         add_cart_url = f"{base_url}/catalog/cart"
-        payload = {"productId": product_id, "quantity": "1", "redir": "PRODUCT"}
-        headers = {"Content-Type": "application/x-www-form-urlencoded"}
+        
+        payload = {
+                "productId": product_id, 
+                "quantity": "1", 
+                "redir": "PRODUCT"
+                }
+        
+        headers = {
+            "Content-Type": "application/x-www-form-urlencoded"
+            }
 
         add_cart_response = session.post(add_cart_url, data=payload, headers=headers)
         assert add_cart_response.status_code == 200
