@@ -1,1 +1,0 @@
-[32mINFO    [0m tests.test_products:test_products.py:23 Searching for product: juice

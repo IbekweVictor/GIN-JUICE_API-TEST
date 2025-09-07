@@ -11,6 +11,7 @@ class TestLogin:
     @allure.severity(allure.severity_level.CRITICAL)
     def test_login_page(self, base_url, session):
         logger.info("Fetching login page...")
+        
         login_url = f"{base_url}/login"
         response = session.get(login_url)
         assert response.status_code == 200
@@ -25,8 +26,11 @@ class TestLogin:
             "username": "carlos",
             "password": "hunter2"
         }
-        headers = {"Content-Type": "application/x-www-form-urlencoded"}
+        headers = {
+            "Content-Type": "application/x-www-form-urlencoded"
+            }
 
         response = session.post(login_url, data=payload, headers=headers, allow_redirects=False)
+       
         assert response.status_code == 302
         assert response.headers.get("Location") == "/my-account"
