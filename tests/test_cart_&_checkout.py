@@ -10,9 +10,9 @@ class TestCartAndCheckout:
 
     @allure.story("Add to cart and expect checkout to redirect to login")
     @allure.severity(allure.severity_level.CRITICAL)
-    def test_add_to_cart_and_checkout_redirects_to_login(self, base_url, session):
-        logger.info("Fetching catalog for product IDs...")
+    def test_add_to_cart_and_checkout(self, base_url, session):
         
+        logger.info("Fetching catalog for product IDs...")
         catalog_page = session.get(f"{base_url}/catalog").text
         product_ids = re.findall(r'/catalog/product\?productId=(\d+)', catalog_page)
         assert product_ids, "No products found"
